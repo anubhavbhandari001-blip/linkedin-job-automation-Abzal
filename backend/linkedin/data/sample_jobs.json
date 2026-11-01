@@ -1,0 +1,59 @@
+[
+  {
+    "linkedin_post_url": "https://www.linkedin.com/posts/example-frontend-developer-001",
+    "recruiter_name": "Priya Sharma",
+    "recruiter_email": "priya@example.com",
+    "company_name": "Example Technologies",
+    "job_title": "Frontend Developer",
+    "job_description": "We are looking for a Frontend Developer to join our engineering team. The candidate should have experience with React.js, JavaScript, HTML5, CSS3, Tailwind CSS, REST APIs and Git. The role involves developing responsive web applications, building reusable UI components, integrating APIs and collaborating with backend developers. Candidates with 0-2 years of experience are encouraged to apply.",
+    "skills_required": [
+      "React.js",
+      "JavaScript",
+      "HTML5",
+      "CSS3",
+      "Tailwind CSS",
+      "REST APIs",
+      "Git"
+    ],
+    "experience_required": "0-2 years",
+    "job_location": "New Delhi, India",
+    "employment_type": "Full-Time",
+    "posted_hours_ago": 3
+  },
+  {
+    "linkedin_post_url": "https://www.linkedin.com/posts/example-react-developer-002",
+    "recruiter_name": "Amit Verma",
+    "recruiter_email": "amit@example.com",
+    "company_name": "Tech Solutions Pvt Ltd",
+    "job_title": "React Developer",
+    "job_description": "Tech Solutions is hiring a React Developer. Required skills include React.js, JavaScript, HTML, CSS, REST APIs and Git. The developer will build responsive user interfaces, consume REST APIs and work with reusable React components. Knowledge of TypeScript is preferred.",
+    "skills_required": [
+      "React.js",
+      "JavaScript",
+      "HTML",
+      "CSS",
+      "REST APIs",
+      "Git"
+    ],
+    "experience_required": "0-2 years",
+    "job_location": "Gurugram, India",
+    "employment_type": "Full-Time",
+    "posted_hours_ago": 8
+  },
+  {
+    "linkedin_post_url": "https://www.linkedin.com/posts/example-contract-developer-003",
+    "recruiter_name": "Neha Kapoor",
+    "recruiter_email": "neha@example.com",
+    "company_name": "Demo Software",
+    "job_title": "Frontend Developer",
+    "job_description": "We are hiring a Frontend Developer on a contract basis. Candidates should have experience with React and JavaScript.",
+    "skills_required": [
+      "React",
+      "JavaScript"
+    ],
+    "experience_required": "1-3 years",
+    "job_location": "Remote",
+    "employment_type": "Contract",
+    "posted_hours_ago": 4
+  }
+]

@@ -1,0 +1,28 @@
+[
+    {
+        "post_number": 1,
+        "recruiter_name": "Anand Ingle",
+        "recruiter_email": "YOUR_TEST_EMAIL@gmail.com",
+        "company_name": "Example Technologies",
+        "job_title": "Frontend Developer",
+        "experience_required": "0-2 years",
+        "location": "United States",
+        "employment_type": "Full-Time",
+        "posted_time": "4h",
+        "linkedin_post_url": "https://www.linkedin.com/posts/example-frontend-developer-1",
+        "job_description": "We are hiring a Frontend Developer for a full-time opportunity. Candidates should have knowledge of React.js, JavaScript, HTML5, CSS3, Tailwind CSS, REST APIs and Git."
+    },
+    {
+        "post_number": 2,
+        "recruiter_name": "Prashant Sharma",
+        "recruiter_email": "YOUR_TEST_EMAIL@gmail.com",
+        "company_name": "Example Technologies",
+        "job_title": "Frontend Developer",
+        "experience_required": "0-6 months",
+        "location": "United States",
+        "employment_type": "Full-Time",
+        "posted_time": "3w",
+        "linkedin_post_url": "https://www.linkedin.com/posts/example-frontend-developer-2",
+        "job_description": "Frontend and Mobile App Developer opportunity for fresher or junior candidates."
+    }
+]

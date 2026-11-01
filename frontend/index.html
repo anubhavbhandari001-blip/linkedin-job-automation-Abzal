@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Job Pipeline — Dashboard</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<div class="board">
+
+  <header class="board__header">
+    <div class="header__title">
+      <span class="header__kicker">Application manifest</span>
+      <h1>Job Pipeline</h1>
+    </div>
+    <div class="header__meta">
+      <span id="api-status" class="api-status api-status--pending">Connecting…</span>
+      <button id="refresh-btn" class="refresh-btn" title="Refresh">⟳</button>
+    </div>
+  </header>
+
+  <section class="readout" id="readout">
+    <div class="readout__primary">
+      <span class="readout__number" id="stat-sent">—</span>
+      <span class="readout__label">Sent today</span>
+    </div>
+    <div class="readout__secondary">
+      <div class="readout__item">
+        <span class="readout__value" id="stat-total">—</span>
+        <span class="readout__label">Total tracked</span>
+      </div>
+      <div class="readout__item">
+        <span class="readout__value" id="stat-avg-score">—</span>
+        <span class="readout__label">Avg. match score</span>
+      </div>
+      <div class="readout__item">
+        <span class="readout__value" id="stat-analyzed">—</span>
+        <span class="readout__label">Analyzed</span>
+      </div>
+      <div class="readout__item">
+        <span class="readout__value" id="stat-skipped">—</span>
+        <span class="readout__label">Skipped</span>
+      </div>
+      <div class="readout__item">
+        <span class="readout__value" id="stat-failed">—</span>
+        <span class="readout__label">Failed</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="controls">
+    <input type="search" id="search-input" placeholder="Search job title, company, or recruiter…" />
+    <div class="status-filters" id="status-filters">
+      <button class="status-filter status-filter--active" data-status="">All</button>
+      <button class="status-filter" data-status="SENT">Sent</button>
+      <button class="status-filter" data-status="ANALYZED">Analyzed</button>
+      <button class="status-filter" data-status="DISCOVERED">Discovered</button>
+      <button class="status-filter" data-status="SKIPPED">Skipped</button>
+      <button class="status-filter" data-status="FAILED">Failed</button>
+    </div>
+  </section>
+
+  <section class="manifest">
+    <div class="manifest__head">
+      <span class="col col--job">Role</span>
+      <span class="col col--company">Company</span>
+      <span class="col col--score">Match</span>
+      <span class="col col--status">Status</span>
+      <span class="col col--time">Last seen</span>
+    </div>
+    <div class="manifest__body" id="manifest-body">
+      <!-- rows injected by app.js -->
+    </div>
+    <div class="manifest__empty" id="manifest-empty" hidden>
+      <p>No jobs match this view yet.</p>
+      <p class="manifest__empty-sub">Run the automation script from the terminal to populate this board.</p>
+    </div>
+  </section>
+
+  <footer class="board__footer">
+    <span id="result-count"></span>
+    <div class="pager">
+      <button id="prev-page" disabled>← Prev</button>
+      <span id="page-indicator">Page 1</span>
+      <button id="next-page" disabled>Next →</button>
+    </div>
+  </footer>
+
+</div>
+
+<!-- Job detail drawer -->
+<div class="drawer" id="drawer">
+  <div class="drawer__panel">
+    <button class="drawer__close" id="drawer-close">×</button>
+    <div id="drawer-content"></div>
+  </div>
+</div>
+<div class="drawer__overlay" id="drawer-overlay"></div>
+
+<script src="app.js"></script>
+</body>
+</html>

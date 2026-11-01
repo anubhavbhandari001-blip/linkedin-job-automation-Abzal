@@ -1,0 +1,8 @@
+2026/10/30-10:13:39.441 23a8 Reusing MANIFEST C:\Users\HP\Desktop\linkedin-job-automation-Abzal\data\chrome_profile\Default\Local Storage\leveldb/MANIFEST-000001
+2026/10/30-10:13:39.443 23a8 Recovering log #21
+2026/10/30-10:13:39.444 23a8 Level-0 table #24: started
+2026/10/30-10:13:39.450 23a8 Level-0 table #24: 33316 bytes OK
+2026/10/30-10:13:39.450 23a8 Recovering log #24
+2026/10/30-10:13:39.452 23a8 Reusing old log C:\Users\HP\Desktop\linkedin-job-automation-Abzal\data\chrome_profile\Default\Local Storage\leveldb/000024.log 
+2026/10/30-10:13:39.456 23a8 Delete type=0 #21
+2026/10/30-10:13:39.456 23a8 Delete type=2 #25
